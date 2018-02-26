@@ -1,25 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 18.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 841.89 595.28" enable-background="new 0 0 841.89 595.28" xml:space="preserve">
-<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-51.4285" y1="362.498" x2="516.4521" y2="362.498" gradientTransform="matrix(1.05 0 0 -1.05 123.305 625.0477)">
-	<stop  offset="0" style="stop-color:#D0090F"/>
-	<stop  offset="1" style="stop-color:#E58618"/>
+	 viewBox="0 0 566.929 513.057" enable-background="new 0 0 566.929 513.057" xml:space="preserve">
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-0.2072" y1="205.7627" x2="568.6008" y2="205.7627">
+	<stop  offset="0.0722" style="stop-color:#E20413"/>
+	<stop  offset="0.2456" style="stop-color:#E20913"/>
+	<stop  offset="0.4442" style="stop-color:#E31713"/>
+	<stop  offset="0.6552" style="stop-color:#E52E13"/>
+	<stop  offset="0.8735" style="stop-color:#E84D13"/>
+	<stop  offset="0.9072" style="stop-color:#E85313"/>
 </linearGradient>
-<path fill="url(#SVGID_1_)" d="M90.777,79.06l82.782,11.826l76.213,349.527c2.628,11.826,13.14,19.71,24.966,19.71h317.99
-	c13.14,0,24.966-10.513,24.966-24.966c0-13.14-10.512-24.966-24.966-24.966H294.448l-2.628-17.083l299.594-17.083
-	c14.454,0,27.594-9.198,32.85-23.652v-2.628l39.42-189.217c3.942-10.512,1.314-21.024-3.942-30.222
-	c-6.57-10.512-17.083-15.768-27.594-15.768H231.376l-11.826-51.247c-2.628-10.512-10.512-18.396-21.024-19.71L98.661,29.127
-	C84.207,26.5,72.38,37.012,69.752,50.151C67.124,64.606,76.322,77.746,90.777,79.06z M283.936,355.002L239.259,151.33h388.948
-	l-39.42,186.589L283.936,355.002z"/>
-<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="341.9467" y1="95.75" x2="422.0387" y2="95.75" gradientTransform="matrix(1.05 0 0 -1.05 123.305 625.0477)">
-	<stop  offset="0" style="stop-color:#D0090F"/>
-	<stop  offset="1" style="stop-color:#E58618"/>
+<path fill="url(#SVGID_1_)" d="M20.275,48.018L99.244,59.3l72.702,333.424c2.507,11.281,12.535,18.802,23.816,18.802h303.341
+	c12.535,0,23.816-10.028,23.816-23.816c0-12.535-10.028-23.816-23.816-23.816H214.564l-2.507-16.295l285.792-16.295
+	c13.788,0,26.323-8.774,31.337-22.563v-2.507l37.604-180.5c3.76-10.028,1.253-20.056-3.76-28.83
+	c-6.267-10.028-16.295-15.042-26.323-15.042h-382.31l-11.281-48.886c-2.507-10.028-10.028-17.549-20.056-18.802L27.796,0.386
+	C14.008-2.121,2.727,7.907,0.22,20.442C-2.287,34.23,6.487,46.765,20.275,48.018z M204.536,311.248l-42.618-194.289h371.029
+	l-37.604,177.993L204.536,311.248z"/>
+<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="393.8107" y1="472.9461" x2="474.0331" y2="472.9461">
+	<stop  offset="0.0722" style="stop-color:#E20413"/>
+	<stop  offset="0.2456" style="stop-color:#E20913"/>
+	<stop  offset="0.4442" style="stop-color:#E31713"/>
+	<stop  offset="0.6552" style="stop-color:#E52E13"/>
+	<stop  offset="0.8735" style="stop-color:#E84D13"/>
+	<stop  offset="0.9072" style="stop-color:#E85313"/>
 </linearGradient>
-<circle fill="url(#SVGID_2_)" cx="524.4" cy="524.51" r="42.049"/>
-<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="155.4837" y1="95.75" x2="235.5757" y2="95.75" gradientTransform="matrix(1.05 0 0 -1.05 123.305 625.0477)">
-	<stop  offset="0" style="stop-color:#D0090F"/>
-	<stop  offset="1" style="stop-color:#E58618"/>
+<circle fill="url(#SVGID_2_)" cx="433.922" cy="472.946" r="40.111"/>
+<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="207.043" y1="472.9461" x2="287.2653" y2="472.9461">
+	<stop  offset="0.0722" style="stop-color:#E20413"/>
+	<stop  offset="0.2456" style="stop-color:#E20913"/>
+	<stop  offset="0.4442" style="stop-color:#E31713"/>
+	<stop  offset="0.6552" style="stop-color:#E52E13"/>
+	<stop  offset="0.8735" style="stop-color:#E84D13"/>
+	<stop  offset="0.9072" style="stop-color:#E85313"/>
 </linearGradient>
-<circle fill="url(#SVGID_3_)" cx="328.612" cy="524.51" r="42.049"/>
+<circle fill="url(#SVGID_3_)" cx="247.154" cy="472.946" r="40.111"/>
 </svg>

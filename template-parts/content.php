@@ -12,18 +12,16 @@ foreach( (array) get_post_meta( $post->ID ) as $k => $v ) $meta->$k = $v[0];
   *function stars_hotel
   *@param str_mata_data принимает объект доп. поля
 */
-
 ?>
  <!--dynamic--> 
     <div class="col-7">
        <div class="main-info-product">
            <div class="info-product-top">
-
 		<?php
 		if ( is_singular() ) :
 			the_title( '<h1 class="main-title title">', '</h1>' );
 		else :
-			the_title( '<h2 class="main-title title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
+			the_title( '<h2 class="main-title title"><a href="' .esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
 		endif;?>
         
 	<div class="block-rating">
@@ -33,7 +31,7 @@ foreach( (array) get_post_meta( $post->ID ) as $k => $v ) $meta->$k = $v[0];
 		<div class="likes-rating"><i class="i-like"></i><?=the_ratings_results($post->ID);?></div>
 		</div>	
 	<div class="address-product"><i class="i-map-point"></i><?=$meta->address;?></div>
-		<?//if ( 'post' === get_post_type() ) : ?>
+
 		<div class="info-product-bottom">
 			<div class="preface-text">
 				<?php 
@@ -56,7 +54,19 @@ foreach( (array) get_post_meta( $post->ID ) as $k => $v ) $meta->$k = $v[0];
 			?>
 		  </div>
 	</div>
- <div class="product-btn"><a href="#" class="feedback-btn"><i class="i-feedback"></i>反馈</a><div class="likes-rating"><?php if(function_exists('the_ratings')) { the_ratings(); } ?>我喜欢它！</div></div>
+	
+<!---форма обратной связи-->
+                            <div class="product-btn">
+                                <button type="button" class="feedback-btn" data-toggle="modal" data-target="#modalFeedback"><i class="i-feedback"></i>反馈</button>
+                                <div class="likes-rating"><i class="i-like"></i>我喜欢它！</div>
+                            </div>
+                            <div class="modal fade" id="modalFeedback" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                	<div class = "modal-content">
+                                    <?php echo do_shortcode( '[contact-form-7 id="39" title="Контактная форма 1"]' ); ?>
+                                    </div>
+                                </div>
+                            </div>
 </div>
 </div>
 </div>

@@ -1,50 +1,3 @@
-/*!
-Theme Name: cian_cun
-Theme URI: http://underscores.me/
-Author: Underscores.me
-Author URI: http://underscores.me/
-Description: Description
-Version: 1.0.0
-License: GNU General Public License v2 or later
-License URI: LICENSE
-Text Domain: cian_cun
-Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
-
-This theme, like WordPress, is licensed under the GPL.
-Use it to make something cool, have fun, and share what you've learned with others.
-
-cian_cun is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
-Underscores is distributed under the terms of the GNU GPL v2 or later.
-
-Normalizing styles have been helped along thanks to the fine work of
-Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
-*/
-/*--------------------------------------------------------------
->>> TABLE OF CONTENTS:
-----------------------------------------------------------------
-# Normalize
-# Typography
-# Elements
-# Forms
-# Navigation
-  ## Links
-  ## Menus
-# Accessibility
-# Alignments
-# Clearings
-# Widgets
-# Content
-  ## Posts and pages
-  ## Comments
-# Infinite scroll
-# Media
-  ## Captions
-  ## Galleries
---------------------------------------------------------------*/
-/*--------------------------------------------------------------
-# Normalize
---------------------------------------------------------------*/
-
 body {
   background: #fff;
   font: 14px/18px "Microsoft Yahei";
@@ -124,12 +77,19 @@ img {
 }
 .i-type-city {
   background: url(images/icon/type-city.svg) no-repeat;
+
+
 }
 .i-services {
-  background: url(images/icon/services.svg) no-repeat;
+  background: url(images/icon/service.svg) no-repeat;
+  background-position:center 0px;
+  
+  
 }
 .i-news {
   background: url(images/icon/news.svg) no-repeat;
+  background-size: 21px 16px;
+
 }
 .i-phone {
   background: url(images/icon/phone.svg) no-repeat;
@@ -148,21 +108,38 @@ img {
 }
 .i-excursions {
   background: url(images/icon/excursions.svg) no-repeat;
+  background-position:center;
+background-size: 54px 34px;
 }
 .i-attractions {
-  background: url(images/icon/attractions.svg) no-repeat;
+  background: url(images/icon/attraction.svg) no-repeat;
+  background-position:center;
+  background-size: 23px 51px  ;
+  
 }
 .i-eat {
-  background: url(images/icon/eat.svg) no-repeat;
+  background: url(images/icon/eating.svg) no-repeat;
+  background-position:center 15px;
+background-size: 36px 23px;
+
+
 }
 .i-shop {
   background: url(images/icon/shop.svg) no-repeat;
+  background-size: 31px 26px;
+  background-position:5px center;
+ 
 }
 .i-fun {
   background: url(images/icon/fun.svg) no-repeat;
+  background-size: 35px 35px;
+  background-position:center;
 }
 .i-news {
   background: url(images/icon/news.svg) no-repeat;
+  background-size: 29px 22px;
+   background-position:center;
+
 }
 .i-like {
   background: url(images/icon/like.svg) no-repeat;
@@ -258,6 +235,7 @@ Header Top
   width: 35px;
   height: 35px;
   margin-top: -15px;
+
 }
 .main-menu .i-news {
   width: 30px;
@@ -594,12 +572,13 @@ Content Products
 }
 .catalog-link .i-services {
   display: block;
-  position: absolute;
-  top: 0px;
-  left: 50%;
-  margin-left: -50px;
-  width: 100px;
-  height: 100px;
+  
+  
+  margin:auto;
+  width: 53px;
+  height: 95px;
+  
+  margin-top: -0px;
   filter: brightness(0) invert(0.8);
   transition: filter 0.1s ease-in-out;
 }

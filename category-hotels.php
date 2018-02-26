@@ -22,7 +22,7 @@
                  		</div>
                  	<?php else:?>
                  		<p>Записей не найдено!</p>
-                 	<?php endif?>
+                 	<?php endif;?>
            </div>
       </div>
   </div>
